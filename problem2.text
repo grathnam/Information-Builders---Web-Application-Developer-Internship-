@@ -1,0 +1,28 @@
+<canvas id="ctx" width="3500" height="3500" style="border:1px solid #000000;"> </canvas>              
+<script>
+var ctx=document.getElementById("ctx").getContext("2d");
+document.body.style.backgroundColor="black";
+ctx.font='20px Arial';
+ctx.fillStyle='white'
+ctx.fillText('welcome to the program for solving the following puzzle', 360,20);
+ctx.fillText('Puzzle:', 380,80);
+ctx.fillText(' A father, a mother, 2 sons, 2 daughters, a guard and a prisoner want to cross the river. ', 380,100);
+	ctx.fillText(' The raft can carry only 2 people ', 380,120);
+	ctx.fillText(' The father cannot be left with any of the daughters unless the mother is present ', 380,140);
+ctx.fillText(' The mother cannot be left with any of the sons unless the father is present. ', 380,160);
+	ctx.fillText(' The criminal cannot stay with any family member unless the guard is present. ', 380,180);
+	
+	ctx.fillText(' Only the father, mother, and guard know how to use the raft.', 380,200);
+ctx.fillText(' Answer: ', 420,240);
+ctx.fillText(' The Guard and Prisoner would together cross the river. The Guard will then  row the raft back to the family ', 420,260);
+ctx.fillText(' The Guard will row with one of the girls and  leaves her on other side and rows back to family with prisoner.     ', 420,280);
+ctx.fillText('  The mother will now row across with the other girl. Leaving both the girls together, she would  row back ', 420,300);
+ctx.fillText(' The Mother will now take the Father with her. The Father will row back after leaving the mother with two daughters ', 420,320);
+ctx.fillText(' The Guard shall now row across the river with  prisoner    ', 420,340);
+ctx.fillText(' The Mother rows alone and meets Father and  sons ', 420,360);
+ctx.fillText(' Father and mother row across the river and Father again rows back, after Leaving Mother with daughters, Guard and Prisoner   ', 420,380);
+ctx.fillText(' Father rows one of  son along with him across the river ', 420,400);
+ctx.fillText('  The Guard and Prisoner row back to the original place ', 420,420);
+	ctx.fillText(' Guard now rows  across with the  son who is left behind by Father . After leaving the son with Father, Mother and Two Daughters and another son, Guard rows back ', 420,440);
+	ctx.fillText(' Guard now rows the prisoner across the river  ', 420,460);
+</script>
